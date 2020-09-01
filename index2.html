@@ -26,9 +26,11 @@
             })
 
             setTimeout(function(){
+                let content = '';
                 for(let i = 0; i < 10000; i++) {
-                    document.getElementById('hello').innerHTML += 'Fui clicado'
+                    content += 'Fui clicado'
                 }
+                $hello.innerHTML = content
             }, 100);
 
         </script>
