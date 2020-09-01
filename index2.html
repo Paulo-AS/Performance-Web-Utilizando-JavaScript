@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <meta http-equiv="X-UA-Ccompatible" content="ie=edge">
+        <title>Processamnto único</title>
+    </head>
+
+    <body>
+        <img src="http://tctechcrunch2011.files.wordpress.com/2013/11/cube_chrome.gif" alt="carro gif"/>
+        <button id="btn-js">Click aqui</button>
+        <h2 id="hello">
+
+        </h2>
+
+        <script>
+            const $button = document.getElementById('btn-js');
+            const $hello = document.getElementById('hello');
+
+            $button.addEventListener("click", e => {
+                e.preventDefault();
+
+                $hello.innerHTML += 'Fui clicado <br/>';
+            })
+
+            setTimeout(function(){
+                for(let i = 0; i < 10000; i++) {
+                    document.getElementById('hello').innerHTML += 'Fui clicado'
+                }
+            }, 100);
+
+        </script>
+    </body>
+</html>
