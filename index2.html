@@ -11,9 +11,7 @@
     <body>
         <img src="http://tctechcrunch2011.files.wordpress.com/2013/11/cube_chrome.gif" alt="carro gif"/>
         <button id="btn-js">Click aqui</button>
-        <h2 id="hello">
-
-        </h2>
+        <h2 id="hello"></h2>
 
         <script>
             const $button = document.getElementById('btn-js');
@@ -24,14 +22,6 @@
 
                 $hello.innerHTML += 'Fui clicado <br/>';
             })
-
-            setTimeout(function(){
-                let content = '';
-                for(let i = 0; i < 10000; i++) {
-                    content += 'Fui clicado'
-                }
-                $hello.innerHTML = content
-            }, 100);
 
         </script>
     </body>

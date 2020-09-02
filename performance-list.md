@@ -12,8 +12,8 @@
 ## Execução - Mão na massa
 
 - [x] Main Thread
-- [] SetTimeout
-- [] RequestAnimationFrame
-- [] RequestIdleCallback
-- [] Otimizações de CSS via GPU "thread"
-- [] Tome cuidado ao manipular o DOM (Reflow e Repaint)
+- [x] SetTimeout
+- [x] RequestAnimationFrame
+- [x] RequestIdleCallback
+- [x] Otimizações de CSS via GPU "thread"
+- [x] Tome cuidado ao manipular o DOM (Reflow e Repaint)
